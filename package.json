@@ -1,0 +1,27 @@
+{
+  "name": "webpack-strip-assert",
+  "version": "0.0.0",
+  "description": "Webpack plugin to strip 'assert' statements that are only intended for development purposes",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://git@github.com/jballant/webpack-strip-block.git"
+  },
+  "homepage": "https://github.com/jballant/webpack-strip-block",
+  "keywords": [
+    "webpack",
+    "webpackloader",
+    "assert",
+    "stripcode"
+  ],
+  "author": {
+    "name": "James Ballantine",
+    "email": "james@1stdibs.com",
+    "url": "http://www.1stdibs.com"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/jballant/webpack-strip-block/issues"
+  }
+}
