@@ -3,7 +3,7 @@
 
 function StripAssertCallsLoader(content) {
 
-    this.regexPattern = /\n[ \t]*assert\([^\);]+\);?[ \t]*\n/g;
+    this.regexPattern = /\n[ \t]*assert\([^\);]+\)[ \t]*[;\n]/g;
 
     content = content.replace(this.regexPattern, '\n');
 
